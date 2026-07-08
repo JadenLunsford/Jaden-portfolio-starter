@@ -19,9 +19,9 @@ For each entry, note:
 ## Phase 1 — Setup & Orientation
 
 ### Entry 1
-- **Feature/task:** 
+- **Feature/task:** .
 - **Copilot feature used:** 
-- **Prompt:**
+- **Prompt:** 
   > 
 - **Result:** 
 - **What I changed or did next:** 
@@ -41,7 +41,7 @@ For each entry, note:
 
 ### Entry 3 — Projects
 - **Copilot feature used:** 
-- **Prompt:**
+- **Prompt:** 
   > 
 - **Result:** 
 - **What I changed or did next:** 
@@ -49,11 +49,11 @@ For each entry, note:
 ---
 
 ### Entry 4 — Dark mode
-- **Copilot feature used:** 
-- **Prompt:**
+- **Copilot feature used:** I used asked mode.
+- **Prompt:** There was a dark mode toggle button that was added and a dark mode theme. The button is there but when it is pressed dark mode is toggled. could you scan the code to identify why the dark mode theme is unresponsive.
   > 
-- **Result:** 
-- **What I changed or did next:** 
+- **Result:** It correctly identified the error in the code.
+- **What I changed or did next:** I switched to agent mode and asked it to fix it.
 
 ---
 

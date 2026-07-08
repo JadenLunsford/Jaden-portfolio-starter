@@ -12,6 +12,7 @@
   --color-border: #ddd1c4;
   --font-main: 'Segoe UI', system-ui, sans-serif;
   --font-display: Georgia, 'Times New Roman', serif;
+  --hero-image: url("./Images/lightmode.jpeg");
   --radius: 10px;
   --shadow: 0 10px 30px rgba(31, 41, 55, 0.12);
   --transition: 0.2s ease;
@@ -25,6 +26,7 @@
     --color-accent: #d8a15d;
     --color-accent-hover: #f0c07b;
     --color-border: #243042;
+    --hero-image: url("./Images/darkmode.jpeg");
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
   }
 
@@ -115,7 +117,7 @@ a:hover {
   padding: 4rem 2rem;
   background:
     linear-gradient(135deg, rgba(11, 18, 32, 0.72), rgba(11, 18, 32, 0.5)),
-    url("./Images/Background image.jpg");
+    var(--hero-image);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -136,6 +138,12 @@ a:hover {
 
 .highlight {
   color: #f0c07b;
+}
+
+.hero-icon {
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: -0.18em;
 }
 
 .caret {
@@ -213,6 +221,23 @@ h2 {
   display: inline-block;
 }
 
+.projects-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.projects-title::after {
+  bottom: -6px;
+}
+
+.projects-icon {
+  width: 1.15em;
+  height: 1.15em;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
 /* Accent underline on section headings */
 h2::after {
   content: '';
@@ -239,16 +264,14 @@ h2::after {
   margin-top: 1rem;
 }
 
-.avatar-placeholder {
+.about-photo {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  background: var(--color-bg-alt);
   border: 3px solid var(--color-border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
+  object-fit: cover;
+  display: block;
+  box-shadow: var(--shadow);
 }
 
 /* ============================================================
