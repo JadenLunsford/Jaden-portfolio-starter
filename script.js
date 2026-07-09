@@ -6,9 +6,9 @@
 // ============================================================
 const projects = [
   {
-    title: "Project One",
-    description: "A short description of what this project does and why you built it.",
-    tags: ["Python", "Flask"],
+    title: "Norfolk State University Lost and Found",
+    description: "This project is a web application that allows users to report items they have lost or found on the Norfolk state University campus.",
+    tags: ["PHP","SQLite","HTML & CSS"],
     github: "https://github.com/yourusername/project-one",
     demo: null,
   },
