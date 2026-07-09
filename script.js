@@ -9,15 +9,15 @@ const projects = [
     title: "Norfolk State University Lost and Found",
     description: "This project is a web application that allows users to report items they have lost or found on the Norfolk state University campus.",
     tags: ["PHP","SQLite","HTML & CSS"],
-    github: "https://github.com/yourusername/project-one",
-    demo: null,
+  
+    
   },
   {
-    title: "Project Two",
-    description: "Another project you're proud of. What problem did it solve?",
-    tags: ["JavaScript", "React"],
-    github: "https://github.com/yourusername/project-two",
-    demo: "https://yourproject.netlify.app",
+    title: "JadenL-Project",
+    description: "Personal Github Project.",
+    tags: ["Github"],
+    github: "https://github.com/JadenLunsford/JadenL-Project",
+    
   },
   {
     title: "Project Three",
